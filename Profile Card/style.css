@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+     font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd7d7;
+}
+
+.profilecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    background-color: #fff;
+    border-radius:24px ;
+    padding: 25px;
+    box-shadow: 7px 10px 20px 7px rgba(0 0 0);
+}
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #5751fa;
+    padding: 3px;
+    margin: 10px;
+}
+
+.image .profilepic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffff;
+}
+
+.profilecard .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.text-data .Job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profilecard .media-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.media-btn .icon{
+    background-color: #4070f4;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 8px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdfae3;
+}
